@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvelous</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 200px;
+        grid-template-rows: 310px 210px 340px 100px;
+        grid-template-areas:
+          "header header header header"
+          "small-box-1 small-box-2 small-box-3 sidebar"
+          "main-content main-content main-content sidebar"
+          "footer footer footer footer";
+          color: white;
+          font-family: monospace;
+           gap: 8px;
+      }
+      .header {
+        grid-area: header;
+        background-image: url('m5.jpg');
+        background-repeat: no-repeat;
+        background-position:center top; 
+      }
+     .header.item{
+      /*width:auto;
+       height:300px;
+      */
+      }
+
+      .small-box-1 {
+        grid-area: small-box-1;
+        background-image: url('phase4.jpg');
+        width: 370px;
+        height="200px";
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+     
+      .small-box-2 {
+        grid-area: small-box-2;
+        background-image: url('phase5.jpg');
+        width="370px";
+        height="200px";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+      .small-box-3 {
+        grid-area: small-box-3;
+        background-image: url('phase6.jpg'); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .sidebar {
+        grid-area: sidebar;
+      }
+
+      .main-content {
+        grid-area: main-content;
+       background-color: rgb(0, 0, 0);
+        font-size: 20px;
+         font-family: "Times New Roman",serif;
+      }
+
+      .footer {
+        grid-area: footer;
+        font-family: "Times New Roman",serif;
+     font-size: 12px;
+      }
+
+      .item {
+        background-color: rgb(0, 0, 0);
+      }
+
+ .highlight1{
+    border: 2px solid #333;
+    border-radius: 10px; 
+    padding: 1px;
+    background-color:#616161;
+    align-items: center;
+     font-family: "Times New Roman",serif;
+     font-size: 33px;
+}
+
+.highlight{
+  background-color: purple;
+  border: 1px solid yellow; 
+  border-radius: 10px; 
+  padding: 2px;
+  align-items: center;
+  color: orange;
+  font-size: 20px;
+  }
+
+ a{
+  color: white;
+ }
+  a:hover {
+    color:orange; /* Change the color for hovered links */
+  }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header item">
+        <marquee>
+          Welcome to the Sci-Fic World of <b>MARVEL STUDIOUS</b> which will be leading you to the TimeLine of PHASE 4,
+          PHASE 5,PHASE 6. Do Sign-Up and explore the MULTIVERSE.  M͜͡a͜͡r͜͡v͜͡e͜͡l͜͡ Forever.
+        </marquee>
+      </div>
+      <div class="small-box-1 item"><span class="highlight1"><a href="https://www.hotstar.com/in/browse/editorial?filters=studio_name%3Dmarvel&tray_id=7701&tray_title=Marvel+Cinematic+Universe+Phase+Four" target="_blank">PHASE 4</a></span></div>
+      <div class="small-box-2 item"><span class="highlight1"><a href="https://marvelguides.com/mcu-phase-5-timeline" target="_blank" >PHASE 5</a></span></div>
+      <div class="small-box-3 item"><span class="highlight1"><a href="https://thedirect.com/article/mcu-phase-6-movies-shows-timeline" target="_blank" >PHASE 6</a></span></div>
+      <div class="sidebar item"><h2 align=center>Login </h2>
+        <h4 ALIGN="CENTER">  Hello There!
+         We're almost done. Before using our services you need to create an account.
+      <div class="input-fields">
+        <input type="text" placeholder="Username" class="input-line full-width"></input>
+        <input type="email" placeholder="Email" class="input-line full-width"></input>
+        <input type="password" placeholder="Password" class="input-line full-width"></input>
+      <div class="spacing">or continue with </div> <br><span class="highlight">GOOGLE</span>
+      <br>
+      <br>
+      <div><button class="ghost-round full-width">Create Account</button></div>
+   
+      </div>
+      </div>       
+
+      <div class="main-content item"><h1 align="center"><b><U>MARVEL CINEMATIC UNIVERSE</U></b></h1>
+     <p> <h3 align="left">
+      The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios.
+       The films are based on characters that appear in American comic books published by Marvel Comics. 
+       The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books,
+        was established by crossing over common plot elements, settings, cast, and characters.<br>
+        <br>
+       Marvel Studios releases its films in groups called "Phases", with the first three phases collectively known as
+        "<u>The Infinity Saga</u>" and the following three phases as "<u>The Multiverse Saga</u>".</h2></p></div>
+
+      <div class="footer item"><h1 align="center"><u>Contact</u></h1>
+      <p> <h2 align="center"> All Copyrights @ <a href="https://github.com/AmullyaPatil" target="_blank" >Ammu(Github)</a></h2> </p>
+      </div>
+    </div>
+  </body>
+</html>      
