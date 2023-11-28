@@ -2,50 +2,48 @@
 THE MULTIVERSE SAGA.....
 
 
-# Personal Business Course Selling Platform
+# GitHub Aggregator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Rails Version](https://img.shields.io/badge/Rails-7.0.8-red.svg)](https://rubyonrails.org/)
-[![PostgreSQL Version](https://img.shields.io/badge/PostgreSQL-14.10-blue.svg)](https://www.postgresql.org/)
-[![Stripe API](https://img.shields.io/badge/Stripe%20API-9.0.0-green.svg)](https://stripe.com/)
+[![Python Version](https://img.shields.io/badge/Python-3.12.0-yellow.svg)](https://python.org/)
+[![Flask Version](https://img.shields.io/badge/Flask-3.12.0-blue.svg)](https://pypi.org/)
 
-# P.D.A College Of Engineering - Batch 21CS
+- **Python**: [Official Website](https://python.org/)
+- **Flask**: [Official Website](https://pypi.org/)
+- **GitHub RESTAPI**: [Official Website](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api)
 
-## Developed By Team 2
-
-## Team Lead:
-
-🚀 **nit (FullStack Dev)**
-
-## Team Manager:
-
-🎨 **sid (Backend Dev)**
+# Developed By Team 2
 
 ## Members:
 
-### Frontend Developers:
+### Project Lead & Developer
+- 👩🏻‍💻 **Nitya**
+- 👩🏻‍💻 **Sidra**
+- 👩🏻‍💻 **Amullya**
+- 👩🏻‍💻 **Samaher**
+- 👩🏻‍💻 **Priyanka**
+- 👩🏻‍💻 **Soumya**
 
-- 💻 **ammu**
-
-### Backend Developers:
-
-- 💻 **ammu**
+### Quality Assurance
+- **Aishwarya.Aggi**   
+- **Kavya**
+- **Channam**ma
+- **Shreya**
+- **Priya**
+- **Ratna**
+  
+### Data Analysts
+- **Akshata**
+- **Veena**
+- **Aishwarya**
+- **Bhargavi**
+- **Praveen MB**
+- **Praveen**
 
 ## Overview
 
-Tfdyfghbjnkl/////////////////////
+- "GitHub aggregator" generally refers to service that collects and displays information from multiple GitHub repositories or projects.
+- It will aggregate data such as commits, contributions, pull requests, and other information, providing a centralized view of activity across various repositories.
+- This is beneficial in overseeing and managing projects within an expansive organization or for effectively monitoring contributions to open-source endeavors.
 
 ## Features
 
-- User authentication and authorization.
-- Course listing and details.
-- Secure payment processing using Stripe API.
-- Admin control with Single Table Inheritance (STI).
-- One-to-Many and Many-to-Many relationships in PostgreSQL database.
-- Robust backend server-side code for efficient processing.
-
-## Technologies Used
-
-- **Ruby on Rails 7.0.8**: [Official Website](https://rubyonrails.org/)
-- **PostgreSQL 14**: [Official Website](https://www.postgresql.org/)
-- **Stripe API 9.0.0**: [Official Website](https://stripe.com/)
